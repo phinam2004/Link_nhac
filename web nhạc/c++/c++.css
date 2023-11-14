@@ -1,0 +1,32 @@
+/* styles.css */
+header {
+    background-color: yellow;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0;
+    text-align: center;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: white;
+    background-color: black;
+  }

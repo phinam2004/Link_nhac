@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trang âm nhạc</title>
+  <link rel="stylesheet" type="text/css" href="music.css">
+</head>
+<body>
+  <header>
+    <h1>Trang âm nhạc</h1>
+    <nav>
+      <ul>
+        <li><a class="home" href="../index.html">Trang chủ</a></li>
+        <li><a class="movie" href="../movie/movie.html">Phim</a></li>
+        <li><a class="programming" href="../c++/c++.html">Lập trình</a></li>
+        <li><a class="chat-gpt" href="../gpt/gpt.html">Chat GPT</a></li>
+      </ul>
+    </nav>
+  </div>
+  </nav>
+</header>
+
+  <div id="musicContent">
+    <h2>Danh sách nhạc</h2>
+    <ul id="playlist">
+      <li data-song="nhac/Đức Kitô đang sống.mp3">Đức Kitô đang sống</li>
+      <li data-song="nhac/Đưa con đi.mp3">Đưa con đi</li>
+      <li data-song="nhac/HÃY RA CHỖ NƯỚC SÂU.mp3">HÃY RA CHỖ NƯỚC SÂU</li>
+      <li data-song="nhac/Tuổi trẻ con.mp3">Tuổi trẻ con</li>
+      <!-- Thêm các bài hát khác vào đây -->
+    </ul>
+  </div>
+
+  <audio id="audioPlayer" controls></audio>
+
+  <div id="audioControls">
+    <button id="bassButton">Bass</button>
+    <button id="echoButton">Vang</button>
+    <!-- Thêm các nút hiệu ứng âm thanh khác vào đây -->
+  </div>
+
+  <button id="startSpeechRecognition">Bật microphone</button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.3.1/howler.min.js"></script>
+  <script src="music.js"></script>
+</body>
+</html>

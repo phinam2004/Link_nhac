@@ -1,0 +1,94 @@
+body {
+    background-image: url('hinh-nen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  #movieContent {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  #videoList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #videoList li {
+    margin-bottom: 10px;
+  }
+  
+  .video-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .video-link:hover {
+    background-color: #555;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  nav ul li a.home {
+    background-color: yellow;
+  }
+  
+  nav ul li a.music {
+    background-color: yellow;
+  }
+  
+  nav ul li a.programming {
+    background-color: yellow;
+  }
+  
+  nav ul li a.chat-gpt {
+    background-color: yellow;
+  }
+  
+  nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+  }

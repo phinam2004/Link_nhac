@@ -1,0 +1,108 @@
+/* music.css */
+body {
+  background-image: url('anh\ nen.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+  }
+
+  h1, h2 {
+    color: #f2f2f2;
+    text-align: center;
+  }
+  
+  #musicContent {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #playlist {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #playlist li {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #playlist li:hover {
+    background-color: #f2f2f2;
+  }
+  
+  #audioControls {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #audioControls button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #audioControls button:hover {
+    background-color: #555;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  nav ul li a.home {
+    background-color: yellow;
+  }
+  
+  nav ul li a.movie {
+    background-color: yellow;
+  }
+  
+  nav ul li a.programming {
+    background-color: yellow;
+  }
+  
+  nav ul li a.chat-gpt {
+    background-color: yellow;
+  }
+  
+  nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+  }
